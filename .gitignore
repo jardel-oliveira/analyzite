@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Streamlit / cache
+.streamlit/secrets.toml
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Local database / generated files
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
